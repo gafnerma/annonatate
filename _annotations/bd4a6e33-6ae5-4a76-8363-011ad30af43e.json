@@ -1,0 +1,33 @@
+---
+canvas: "https://digital.library.unt.edu/iiif/ark:/67531/metadc1613674/m1/1/full/full/0/default.jpg"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Testcomment",
+            "purpose": "commenting",
+            "creator": {
+                "id": "gafnerma",
+                "name": "Markus Gafner"
+            },
+            "created": "2024-03-15T08:58:00.774Z",
+            "modified": "2024-03-15T08:58:04.606Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://digital.library.unt.edu/iiif/ark:/67531/metadc1613674/m1/1/full/full/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"611.5960083007812,869.0773315429688 1048.0050048828125,851.6209716796875 1067.955078125,948.8778076171875 1172.6932373046875,736.90771484375 1077.93017578125,710.7232055664062\"></polygon></svg>"
+        }
+    },
+    "id": "bd4a6e33-6ae5-4a76-8363-011ad30af43e.json",
+    "motivation": "commenting"
+}
