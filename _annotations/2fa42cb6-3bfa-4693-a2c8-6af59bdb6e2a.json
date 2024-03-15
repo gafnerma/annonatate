@@ -1,0 +1,22 @@
+---
+canvas: "https://digital.library.unt.edu/iiif/ark:/67531/metadc1613674/m1/1/full/full/0/default.jpg"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [],
+    "target": {
+        "source": {
+            "id": "https://digital.library.unt.edu/iiif/ark:/67531/metadc1613674/m1/1/full/full/0/default.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=59.226924896240234,69.825439453125,1124.6882362365723,617.2069702148438"
+        }
+    },
+    "id": "2fa42cb6-3bfa-4693-a2c8-6af59bdb6e2a.json",
+    "motivation": "commenting"
+}
